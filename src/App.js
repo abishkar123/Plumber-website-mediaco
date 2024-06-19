@@ -5,6 +5,7 @@ import { Header } from './pages/Header/Header';
 import { RequestForm } from './pages/RequestForm/RequestForm';
 import { ServicePage } from './pages/ServicePage/ServicePage';
 import { HeroPage } from './pages/mainpage/HeroPage';
+import { PaymentPage } from './pages/payment/PaymentPage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <RequestForm/>
       <ServicePage/>
       <Deliver/>
+      <PaymentPage/>
     </div>
   );
 }
