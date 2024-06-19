@@ -61,20 +61,10 @@ export const RequestForm = () => {
           <Col>
           <button className='bg-blue-400 w-80 h-9 ' type='submit'>Get a free quote</button>
           </Col>
-         
-        
-          
-
           </Row>
           </div>
-
-
-
-
         </Form>
       </div>
-
-
     </div>
   )
 }

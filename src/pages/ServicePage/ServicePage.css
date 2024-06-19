@@ -1,0 +1,87 @@
+.custom-body{
+    background:rgba(198, 181, 181, 0.178);
+    min-height: 100dvh;
+    position: relative;
+    width: auto;
+    
+}
+
+
+.service-highlight{
+    position: absolute;
+    top: 4rem; 
+    left: 40rem
+}
+.text-hightlight{
+   position: absolute;
+   top:8rem;
+   left: 28rem;
+}
+
+.service-text-hightlight{
+    position: absolute;
+    top: 12rem;
+    left:28rem;
+}
+
+
+.line-horizental{
+    border: 0.0rem solid; 
+    height: 1px; 
+    background-color: rgba(128, 128, 128, 0.523); 
+    margin: 2rem 0rem; 
+    width: 60%;
+
+
+    position: relative;
+    left: 32rem;
+    bottom:3rem;
+
+    
+}
+
+.brand_icons{
+    display: flex;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    width: 12%;
+    position: relative;
+    left: 5rem;
+    bottom: 2rem;
+    
+}
+.banner-color{
+    background-color: #090981c2;
+}
+.div-color{
+    transform: skew(-2deg, 0deg);  
+}
+
+.contact-number{
+    border: 1px solid white;
+    border-radius: 0.1rem;
+    padding: 0.6rem 1rem;
+    width: 8rem;
+    height: 2.7rem;
+    background-color: #090981c2;
+    color: white;
+    transform: skew(-9deg, 0deg); 
+
+    position: relative;
+    left: 70rem;
+    top: 3rem;
+}
+
+.custom-quote{
+    width: 8rem;
+    height: 2.7rem;
+    background: white;
+    transform: skew(-9deg, 0deg); 
+    color: blue;
+    font-weight: 600;
+
+    position: absolute;
+    left: 80rem;
+    top: 3rem;
+}
+
