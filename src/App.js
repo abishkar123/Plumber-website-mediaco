@@ -1,6 +1,8 @@
 
 import './App.css';
 import { Deliver } from './pages/Deliver/Deliver';
+import Question from './pages/FAQ/Question';
+import { QuestionBanner } from './pages/FAQ/QuestionBanner';
 import { Header } from './pages/Header/Header';
 import { RequestForm } from './pages/RequestForm/RequestForm';
 import { ServicePage } from './pages/ServicePage/ServicePage';
@@ -16,6 +18,8 @@ function App() {
       <ServicePage/>
       <Deliver/>
       <PaymentPage/>
+      <Question/>
+      <QuestionBanner/>
     </div>
   );
 }
