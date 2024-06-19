@@ -1,0 +1,123 @@
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 1rem 2rem;
+    color: #fff;
+    height: 10vh;
+    width: auto;
+
+    position: relative;
+    
+    
+}
+
+.logo img {
+    height: 3rem;
+    width: 12rem;
+    border-radius: 1rem;
+    position: absolute;
+    left: 3.5rem;
+    top: 0.5rem;
+   
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.7rem;
+    position: relative;
+    left: 20rem;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+.vertical_line{
+    border-radius: 1px solid white;
+    margin-left: 1rem;
+    transform: skew(-11deg, 0deg);
+    position: relative;
+    left: 12rem;
+
+}
+
+.vertical_line-second{
+    border-radius: 1px solid white;
+    margin-left: 2rem;
+    transform: skew(-11deg, 0deg);
+    position: relative;
+    right: 2rem;
+}
+
+.availability {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 6rem;
+    font-size: 0.7rem;
+    
+}
+
+.availability .status-dot {
+    width: 1rem;
+    height: 1rem;
+    background-color: green;
+    border-radius: 50%;
+    margin: 0 5px;
+    
+}
+
+.contact-buttons {
+    display: flex;
+    align-items: center;
+    transform: skew(-36deg, 0deg);
+}
+
+.quote-button {
+    background-color: #00aaff;
+    color: #fff;
+    border: none;
+    padding: 6px 15px;
+    margin-right:1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transform: skew(18deg, 0deg);
+    
+}
+
+.phone-number {
+    border: 1px solid #fff;
+    padding: 6px 15px;
+    border-radius: 5px;
+    transform: skew(18deg, 0deg);
+}
+
+/* @media (max-width: 480px) {
+    .header{
+      width:auto;
+      padding: 1rem 1rem;
+      color: #fff;
+      height: 4vh;
+     
+    }
+    .img{
+    height: 1rem;
+    width: 6rem;
+    border-radius: 1rem;
+    position: absolute;
+    left: 3.5rem;
+    top: 0.5rem;
+
+    }
+  } */

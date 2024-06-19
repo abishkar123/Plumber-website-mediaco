@@ -1,12 +1,13 @@
 
 import './App.css';
+import { Header } from './pages/Header/Header';
+import { HeroPage } from './pages/mainpage/HeroPage';
 
 function App() {
   return (
-    <div className='text-5xl font-bold text-center'>
-
-      Plumber-website coming soon 
-     
+    <div>
+      <Header/>
+      <HeroPage/>
     </div>
   );
 }
