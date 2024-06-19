@@ -27,7 +27,7 @@ export const Header = () => {
             </div>
             <div className="border-l border-whitesome h-10 vertical_line-second"></div>
             <div className="contact-buttons">
-                <button className="quote-button">Get a free quote</button>
+                <button className="quotebutton">Get a free quote</button>
                 <div className="phone-number">1300 00 000</div>
             </div>
         </header>

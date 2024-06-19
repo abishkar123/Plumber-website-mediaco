@@ -32,7 +32,7 @@
     margin: 0;
     font-size: 0.7rem;
     position: relative;
-    left: 20rem;
+    left: 16rem;
 }
 
 .nav-links li {
@@ -48,7 +48,7 @@
     margin-left: 1rem;
     transform: skew(-11deg, 0deg);
     position: relative;
-    left: 12rem;
+    left: 10rem;
 
 }
 
@@ -57,7 +57,7 @@
     margin-left: 2rem;
     transform: skew(-11deg, 0deg);
     position: relative;
-    right: 2rem;
+    right: 1rem;
 }
 
 .availability {
@@ -84,7 +84,7 @@
     transform: skew(-36deg, 0deg);
 }
 
-.quote-button {
+.quotebutton {
     background-color: #00aaff;
     color: #fff;
     border: none;

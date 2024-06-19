@@ -25,7 +25,6 @@
 }
 
 .quote{
-   
     width: 8rem;
     height: 2.7rem;
     background-color:#090981c2;
@@ -39,9 +38,8 @@
 
 .banner-div{
     background: rgba(128, 128, 128, 0.123);
-    width: auto;
+    width:100%;
     min-height: 45vh;
-
     position: relative;
 
 }
